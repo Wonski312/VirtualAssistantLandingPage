@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/af86d45df6.js" crossorigin="anonymous"></script>
+
+
+    <!-- my styles -->
+    <link rel="stylesheet" href="dist/css/style-min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container-fluid d-md-flex justify-content-md-between p-3">
+            <div class="nav-logo-main">
+                <a class="navbar-brand ms-3" href="/index.html">
+                    <div class="nav-logo">
+                        A
+                    </div>
+                    <div class="nav-logo-link text-light">
+                        <a href="./index.html">Ann Robertson</a>
+                        <a href="./index.html" class="sub-logo">Virtual Assistant</a>
+                    </div>
+
+                </a>
+            </div>
+
+            <button class="navbar-toggler btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto ">
+                    <a class="nav-link text-center text-light mt-3 mt-md-0 p-3" aria-current="page"
+                        href="#services">Services</a>
+                    <!-- <a class="nav-link text-center text-light p-3" href="#">About</a> -->
+                    <a class="nav-link text-center text-light p-3" href="./contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="header-subpages">
+        <!-- <div class="header__shadow"></div> -->
+        <div class="subpage-title wrapper">
+            <p>Contact</p>
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="wrapper">
+
+            <div class="contact-page-info">
+
+                <p class="contact-details-p"><i class="fa-solid fa-mobile-screen-button"></i><br><span>564894891</span>
+                </p>
+                <p class="contact-details-p">
+                    <i class="fa-regular fa-envelope"></i>
+                    <br><span>info@gmail.com</span>
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="contact-form">
+
+            <div class="contact-form__boxes wrapper">
+
+
+                <div class="form__box wrapper">
+                    <h2 class="title item1">Leave Me a Massage and I'll Get Back to You:</h2>
+                    <form action="message-form" class="form-layout">
+                        <div class="item2 input__box">
+                            <label for="first-name" class="label">First Name</label>
+                            <input type="text" id="first-name" class="input">
+                        </div>
+                        <div class="item3 input__box">
+                            <label for="label last-name" class="label">Last Name</label>
+                            <input type="text" id="last-name">
+                        </div>
+                        <div class="item4 input__box">
+                            <label for=" label email" class="label">E-mail</label>
+                            <input type="text" id="email" class="" inputmode="email">
+                        </div>
+                        <div class="item5 input__box">
+                            <label for="subject" class="label">Subject</label>
+                            <input type="text" id="subject">
+                        </div>
+                        <div class="item6 input__box">
+                            <label for="massage-text" class="label">Tape your massage here</label>
+                            <textarea id="massage-text" class="textarea"></textarea>
+                        </div>
+                        <button type="submit" class="item7 button form-submit">Submit</button>
+                    </form>
+                </div>
+
+                <div class="social-media">
+                    <p class="title">Find Me on Social Media</p>
+                    <div class="socia-media__icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span class="footer-year"></span> by Maggie Brightstone.<br />Created by Stanislaw Marcisz
+        </p>
+    </footer>
+
+
+
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+
+    <!-- my scripts -->
+    <script src="./dist/js/script-min.js"></script>
+</body>
+
+</html>
